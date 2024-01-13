@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+  background-color: #f8f9fc;
+  height: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#home-icon {
+  height: 22px;
+  padding-bottom: 5px;
+}
+
+#home-link {
+  color: #494a56;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.2s color;
+}
+
+#home-link:hover {
+  color: #66687b;
+}
+
+#nama-user {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #494a56;
+}
+
+#main-container {
+  padding: 30px 40px 50px 30px;
+  background-color: rgb(239, 239, 239);
+}
+.main{
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+  background-color: #2f2fa2;
+  color: #f8f9fc;
+  height: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#profil-icon {
+  height: 100px;
+  margin-top: 20px;
+}
+
+#sidebar-link-container {
+  margin-top: 30px;
+}
+
+.sidebar a{
+  margin-left: 10px;
+  display: block;
+  color: #d4d5d8;
+  padding: 20px 17px;
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #d4d5d8;
+  transition: 0.2s color;
+}
+
+.sidebar a:hover {
+  color: #f8f9fc;
+}
+
+#right-container {
+  background-color: #f8f9fc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+}
+
+#profil-title {
+  color: #2f2fa2;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#data-row {
+  padding: 10px 20px;
+}
+
+#footer-row {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#copyright {
+  font-size: 12px;
+  color: #5a5c69;
+}
+
+#footer-container {
+  background-color: rgb(239, 239, 239);
+}

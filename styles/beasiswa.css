@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #2f2fa2;
+  height: 70px;
+}
+
+#logo{
+  width: 50px;
+}
+
+#logo-link {
+  font-weight: bold;
+  font-size: 27px;
+  color: #f64c72;
+}
+
+#menu-link {
+  color: whitesmoke;
+  margin-left: 20px;
+  transition: 0.2s color;
+}
+
+#menu-link:hover {
+  color: #f64c72;
+}
+
+#get-started-button {
+  background-color: #f64c72;
+  border: none;
+  width: 140px;
+  border-radius: 60px;
+  font-size: 15px;
+  padding: 10px;
+  transition: 0.2s box-shadow;
+}
+
+#get-started-button:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+#headline-container {
+  background-color: #2f2fa2;
+  padding-top: 140px;
+  padding-left: 20px;
+  padding-right: 70px;
+}
+
+#person-img {
+  height: 430px;
+}
+
+#headline-text-container {
+  padding-top: 70px;
+  color: whitesmoke;
+}
+
+#headline {
+  margin-bottom: 40px;
+}
+
+#beasiswa-container {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+#card-col {
+  width: 380px;
+  margin: 20px 10px;
+}
+
+#card {
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  border-radius: 0px;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+#card-title {
+  color: #2f2fa2;
+}
+
+#button {
+  background-color: #f64c72;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  transition: 0.2s background-color;
+}
+
+#button:hover {
+  background-color: #f32854;
+}
+
+#footer {
+  background-color: #2f2fa2;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+}
